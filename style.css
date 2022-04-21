@@ -19,8 +19,7 @@ nav{
 }
 
 .logo {
-	/* background-color:aliceblue; */
-	/* background: whitesmoke; */
+	
 	left: 0px;
 	right: 0px;
 	height: 50px;
@@ -31,57 +30,51 @@ nav{
 .logo-ratings {
 	left: 0px;
 	right: 0px;
-	height: 50px;
+	height: 900px;
 	background-color: white;
+	margin-top: 10px;
+	font-size: 13px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+	
 }
 .bunes {
-	/* background-color: whitesmoke; */
-	/* left: 0px;
-	right: 0px; */
 	height: 50px;
 	display: flex;
 	justify-content:space-evenly;
 	list-style: none;	
 }
 
-.bunes-ratings {
-	margin-left: 0px;
-	list-style: none;
-	display: flex;
-	justify-content: space-evenly;
-}
-.list-ratings-image {
-	height: 25px;
-	
+.layout-image-news {
+	color: #D9D9D9;
 }
 .news-body {
 	margin-top: 20px;
 	width: 730px;
 	height: 92px;
-	/* background: #37003c; */
 	background: #961e23;
 	margin: 20px auto 0;
 }
 
 .news-main	 {
 	margin-top: 20px;
-	/* width: 970px; */
 	left: 0px;
 	right: 0px;
-	/* width: 1472px; */
 	height: 660px;
-	
-	/* background:#141719	; */
 	background: #961e23;
-	
 }
 
 .layout-image {
 	height: 500px;
-	width: 500px;
-	
-	
+	width: 500px;	
 }
+
+.layout-image:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
 .layout-main {
 	height: 400px;
 	width: 1100px;
@@ -91,53 +84,99 @@ nav{
 	float: right;
 	margin-top: 80px;
 }
-.ratings {
-	margin-top: -500px;
+.layout_ratings {
+	margin-top: -1750px;
 	margin-left: 50px;
 	width: 270px;
-	height: 955px;
-	background: white;
-	/* float: left; */
+	height: 1800px;
+}
+.ratings {
+	background:#2d2c28;
 	border-radius: 8px;
 	text-align: center;
+
 }
-/* .temp { */
-	/* margin-top: 85px;
-	margin-left: 15px; */
-	/* height: 5px;
-	width: 250px;
-	background: #cb32c1;
-} */
-.layout {
-	width: 400px;
-	height: 400px;
+table {
+	margin-left: 13px;
+	margin-top: 10px;
 }
 
+table th,
+table td {
+	padding: 10px 10px;
+	text-align: center;
+}
+
+
+
+
+
+.table_ratings {
+	padding:10px 10px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+  }
+tr {
+	border-top: 0.1px solid black;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 0 10px;
+}
+
+table .user img {
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+}
+
+.layout {
+	width: 500px;
+	height: 500px;
+}
+.img_player_main {
+	margin-top: 60px;
+}
+.img_item_main {
+	height: 150px;
+	border-radius: 100px;
+	
+}
+.img_item_main:hover {
+	transform: scale(1.07);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
 .layout-image-news {
 	font-size: 20px;
-	color: #000;
-	/* background-color: aliceblue; */
-	/* list-style: none; */
+	color: #D9D9D9;
 }
 
 .layout-image-news-list {
-	color: #000;
+	color: #D9D9D9;
+	list-style: none;
+	
 }
+
 .first-news {
 	float: right;
+} 
+
+
+.layout_link_item_news {
+	text-decoration: none;
+	color:#D9D9D9;
 }
-.Man {
-	height: 500px;
-	width: 500px;
+
+.layout_link_item_news:hover {
+	text-decoration: underline;
 }
 .img-news_main {
-
 	height: 500px;
 	width: 500px;
-	/* display:grid;
-	grid-template-columns: 100px 100px;
-	grid-column-gap: 40px; */
-	/* background: #cb32c1; */
 	margin-left: 350px;
 	margin-right: 30px;
 	margin-top: 60px;
@@ -145,12 +184,156 @@ nav{
 
 .img-news_main_list {
 	list-style: none;
-	
 	display: flex;
 	justify-content:space-evenly;
 }
 
 
+.match_result {
+	margin-left: 360px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.thead_result {
+	height: 50px;
+	
+}
+
+.tr_result {
+	text-align: center;
+	transition: all .2s ease-in;
+	cursor: pointer;
+}
+
+
+.tr_result:hover {
+	background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table_result {
+	border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+
+ .td_result_name_club {
+	text-align: center;;
+	width: 150px;
+}
+
+
+.td_result_score {
+	background-color: aliceblue;
+	width: 50px;
+	
+}
+
+
+
+.div_name_club_and_icon {
+	display: flex;
+	align-items: center;
+	gap: 0 10px;
+	justify-content: center;
+	
+}
+
+.img_pl_mini {
+	height: 30px;
+	margin-top: 10px;
+	
+}
+
+.td_result_name_club {
+	vertical-align: middle;
+}
+
+.img_club_result {
+	height: 20px;
+	width: 20px;
+}
+
+.img_video_last {
+	width: 300px;
+	height: 300px;
+	transition: all .2s ease-in;
+	border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);	
+}
+
+.img_video_last:hover {
+	background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news_video_last {
+	margin-left: 360px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap:20px;
+}
+
+.tr_table_calendar {
+	text-align: center;
+	transition: all .2s ease-in;
+	cursor: pointer;
+}
+
+
+.tr_table_calendar:hover {
+	background-color: #f5f5f5;
+	/* background-color: ; */
+	/* background-color: red; */
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.layout_icon_name_club_calendar {
+	display: flex;
+	align-items: center;
+	gap: 0 10px;
+	justify-content: center;
+}
+.td_time_calendar {
+	background-color:#dbe8f4;
+	border-radius: 8px;
+}
+
+.calendar {
+	text-align: center;
+	/* margin-left: 13px; */
+	
+	height: 810px;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 8px;
+	/* display: grid;
+	grid-template-columns: 50px 100px 60px 50px;
+	grid-template-rows: 40px 40px 40px; */
+	font-size: 13px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+	/* transform: translate(-50%, -50%); */
+        border-collapse: collapse;
+}
+.layout_table_calendar {
+	 /* text-align: center; */
+	 margin-left: 10px;
+	/* justify-content: center; */ 
+}
+
+.tr_table_calendar,.td_table_calendar {
+	padding: 12px 15px;
+}
+.table_calendar {
+	/* padding: 10px 10px; */
+}
 nav .logoo a:nth-child(1) {
 	width: 0px;
 }
@@ -177,6 +360,17 @@ nav .animation{
 	transition: all .5s ease 0s;
 }
 
+.animation_result {
+	position: absolute;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	bottom: 0;
+	z-index: 0;
+	/* background: #2d2c28; */
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+}
 nav a:nth-child(1){
 	width: 100px;
 }

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <!-- <meta charset="utf-8">
-    <title>Navbar Menu Hover Effect</title> -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,9 +31,14 @@
     />
     
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="index.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    
     <div class="logo">
         <!-- <nav class = "logoo"> -->
             <ul class="bunes">
@@ -44,111 +47,1124 @@
                 <li><a href="https://www.laliga.com/"><img src="./assets/css/img/laliga.png" alt="" class="bunes"></a></li>
                 <li><a href="https://www.ligue1.com/"><img src="./assets/css/img/ligue1.png" alt="" class="bunes"></a></li>
             </ul>
-            <!-- <a href="#" ><img src="./assets/css/img/bundesliga.png" alt="" class="bunes"></a>
-            <a href="#" ><img src="./assets/css/img/premier league.png" alt="" class="bunes"></a>
-            <a href="#" ><img src="./assets/css/img/laliga.png" alt="" class="bunes"></a>
-            <a href="#" ><img src="./assets/css/img/ligue1.png" alt="" class="bunes"></a> -->
-            <!-- <a href="" class="bunes"><img src="./assets/css/img/bundesliga.png" alt=""></a> -->
             
-        <!-- </nav> -->
         
     </div>
 
 
+
+    <!-- <button onclick="myFunction()">Click Me!</button> -->
+    
+    
+
+
     <nav>
-        <a href="#">Trang Chủ</a>
-      <a href="#">Tin Tức</a>
+        <a href="#" >Trang Chủ</a>
+      <a href="#" onclick="myFunction()">Tin Tức</a>
       <a href="#">Video</a>
-      <a href="#">Các giải đấu</a>
+      <a href="http://127.0.0.1:5500/SE.html">Các giải đấu</a>
       <div class="animation start-home"></div>
     </nav>
 
+    <!-- click vao menu -->
+    <script>
+      function myFunction() {
+    location.href="http://127.0.0.1:5500/SE.html";
+  }
+    </script>
+
+
     <div class="news-body">
       <!-- thông báo gì đó -->
+      
     </div>
-
+    <!-- <i class="fa-solid fa-user"></i>
+     -->
+     
 
     <div class="news-main">
       <div class="layout-main">
         <div class="layout">
-          <img src="./assets/css/img/rooney.jpg" alt="" class="layout-image">
+          <img src="./assets/css/img/rooney.jpg" alt="" class="layout-image" style="box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);">
       </div>
 
-      <div class="layout">
-        <!-- <img src="./assets/css/img/Man.jpg" alt="" class="layout-image"> -->
-        <p style="font-size:30px">
+      <div class="layout">        
+        <p style="font-size:35px;color:aliceblue;font-family: 'Anton', sans-serif;">
+        
           Diễn biến chính tuần này
         </p>
           <ul class="layout-image-news">
-            <!-- <a href="" class="layout-image-news-list"></a>
-            <a href="" class="layout-image-news-list"></a>
-            <a href="" class="layout-image-news-list"></a> -->
             
-            <!-- <li class="layout-image-news-list" style="font-size:40px">Diễn biến chính tuần này</li> -->
-            <li class="layout-image-news-list" style="padding: 10px;"><a href="" class="layout-image-news-list">Ronaldo mang 3 điểm về cho MU</a></li>
-            <li class="layout-image-news-list" style="padding: 10px;"><a href="" class="layout-image-news-list">Rooney đi vào ngôi đền huyền thoại</a></li>
-            <li class="layout-image-news-list" style="padding: 10px;"><a href="" class="layout-image-news-list">Những đứa trẻ của Xavi đã lớn</a></li>
+            <li class="layout-image-news-list" style="padding: 10px;">
+              <a href="" class="layout_link_item_news">
+              <div class="icon_and_news_main">
+                
+              
+                <span>
+                <i class="fa-solid fa-play" style="margin-right: 10px;"></i> 
+                Ronaldo mang 3 điểm về cho MU
+                  </a>
+                </span>
 
-            <!-- <li class="layout-image-news-list">Ronaldo mang 3 điểm về cho MU</li>
-            <li class="layout-image-news-list">Ronaldo mang 3 điểm về cho MU</li>
-            <li class="layout-image-news-list">Ronaldo mang 3 điểm về cho MU</li> -->
-          </ul>
-          
-        
+                  
+                
+              </div>
+              
+             
+            </li>
+            <li class="layout-image-news-list" style="padding: 10px;">
+              <a href="" class="layout_link_item_news">
+              <div class="icon_and_news_main">
+                
+                <!-- <p>Ronaldo mang 3 điểm về cho MU</p> -->
+                <span>
+                <i class="fa-solid fa-play" style="margin-right: 10px;"></i> 
+                Rooney đi vào ngôi đền huyền thoại
+                  </a>
+                </span>
+
+                  
+                
+              </div>
+              
+            <li class="layout-image-news-list" style="padding: 10px;">
+              <a href="" class="layout_link_item_news">
+              <div class="icon_and_news_main">
+                
+                <!-- <p>Ronaldo mang 3 điểm về cho MU</p> -->
+                <span>
+                <i class="fa-solid fa-play" style="margin-right: 10px;"></i> 
+                Những đứa trẻ của Xavi đã lớn
+                  </a>
+                </span>
+              </div>
+              
+          </ul>   
+          <div class="img_player_main">
+            <p style="color:aliceblue;font-size:35px;color:aliceblue;font-family: 'Anton', sans-serif;">Cầu thủ hot trong tuần</p>
+              <img src="./assets/css/img/ronaldo.jpg" alt="" class="img_item_main">
+              <img src="./assets/css/img/m30.png" alt="" class="img_item_main">
+              <img src="./assets/css/img/m3p.jpg" alt="" class="img_item_main">
+          </div>
       </div>
       
     </div>
-
-    
-
-
-
-
-      <!-- <div class="img-news_main">
-        <div class="layout-item">
-          <img class = "Man" src="./assets/css/img/rooney.jpg" alt="">
-          
-          <a href="" class="first-news">vô địch rồi</a>
-          <a href="" class="first-news">vô địch rồi</a>
-          <a href="" class="first-news">vô địch rồi</a>
-          <a href="" class="first-news">vô địch rồi</a>
-          <img class = "Man" src="./assets/css/img/MU vs tot.jpg" alt="">
-        </div> -->
-        <!-- <ul class="img-news_main_list">
-          <li><img class = "Man" src="./assets/css/img/Man.jpg" alt=""></li>
-          <li><img class = "Man" src="./assets/css/img/Man.jpg" alt=""></li>
-        </ul> -->
       </div>  
-      <!-- <div class="MU"> -->
-        <!-- <ul class="img-main__news">
-          <li>
-            <img class = "img-Mu" src="./assets/css/img/Man.jpg" alt="">
-          </li>
-          <li>
-            <a href="">thành man trở lại</a>
-          </li>
-        </ul> -->
-        
-      <!-- </div> -->
-
-
+    
       
-      <div class="ratings">
-        Bảng xếp hạng
-        <div class="logo-ratings">
-          <ul class="bunes-ratings">
-            <li class = "list-ratings-item"><a href="https://www.bundesliga.com/en/bundesliga"><img src="./assets/css/img/bundesliga.png" alt="" class = "list-ratings-image"></a></li>
-            <li class = "list-ratings-item"><a href="https://www.premierleague.com/"><img src="./assets/css/img/premier league.png" alt="" class = "list-ratings-image"></a></li>
-            <li class = "list-ratings-item"><a href="https://www.laliga.com/"><img src="./assets/css/img/laliga.png" alt="" class = "list-ratings-image"></a></li>
-            <li class = "list-ratings-item"><a href="https://www.ligue1.com/"><img src="./assets/css/img/ligue1.png" alt="" class = "list-ratings-image"></a></li>
-        </ul>
+<p style="margin-left: 360px; font-size: 30px;">
+  Nổi bật
+</p>
+      <div class="match_result">
+        <div class="test_1">
+          <table class = "table_result">
+            <tbody class="result">
+              
+              <tr class = "tr_result">
+                <td>
+                  NNA
+                </td>
+                
+              </tr>
 
+               <tr class = "tr_result">
+                 <td class = "td_result_name_club">
+                   <div class = "div_name_club_and_icon"> 
+                   
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                  
+                 </td>
+  
+                 <td class = "td_result_score">
+                   0 - 0
+                 </td>
+  
+                 <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                 </td>
+               </tr>
+  
+               <tr class = "tr_result">
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                </td>
+  
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+              <tr class = "tr_result">
+                <td class = "td_result_name_club">  
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+          
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                
+                </td>
+  
+                <td class = "td_result_name_club">
+                  
+                  <div class = "div_name_club_and_icon"> 
+                    
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="test_1">
+          <table class = "table_result">
+            <tbody class="result">
+              
+              <tr class = "tr_result">
+                <td>
+                  NNA
+                </td>
+                
+              </tr>
+
+               <tr class = "tr_result">
+                 <td class = "td_result_name_club">
+                   <div class = "div_name_club_and_icon"> 
+                   
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                  
+                 </td>
+  
+                 <td class = "td_result_score">
+                   0 - 0
+                 </td>
+  
+                 <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                 </td>
+               </tr>
+  
+               <tr class = "tr_result">
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                </td>
+  
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+              <tr class = "tr_result">
+                <td class = "td_result_name_club">  
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+          
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                
+                </td>
+  
+                <td class = "td_result_name_club">
+                  
+                  <div class = "div_name_club_and_icon"> 
+                    
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+  
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="test_1">
+          
+          <table class = "table_result">
+            <tbody class="result">
+              
+              <tr class = "tr_result">
+                <td>
+                  NNA
+                </td>
+                
+              </tr>
+
+               <tr class = "tr_result">
+                 <td class = "td_result_name_club">
+                   <div class = "div_name_club_and_icon"> 
+                   
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                  
+                 </td>
+  
+                 <td class = "td_result_score">
+                   0 - 0
+                 </td>
+  
+                 <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                 </td>
+               </tr>
+  
+               <tr class = "tr_result">
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                </td>
+  
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+              <tr class = "tr_result">
+                <td class = "td_result_name_club">  
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+          
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                
+                </td>
+  
+                <td class = "td_result_name_club">
+                  
+                  <div class = "div_name_club_and_icon"> 
+                    
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+  
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="test_1">
+          
+          <table class = "table_result">
+            <tbody class="result">
+              
+              <tr class = "tr_result">
+                <td>
+                  NNA
+                </td>
+                
+              </tr>
+
+               <tr class = "tr_result">
+                 <td class = "td_result_name_club">
+                   <div class = "div_name_club_and_icon"> 
+                   
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                  
+                 </td>
+  
+                 <td class = "td_result_score">
+                   0 - 0
+                 </td>
+  
+                 <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                 </td>
+               </tr>
+  
+               <tr class = "tr_result">
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                </td>
+  
+                <td class = "td_result_name_club">
+                  <div class = "div_name_club_and_icon"> 
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+              <tr class = "tr_result">
+                <td class = "td_result_name_club">  
+                  <div class = "div_name_club_and_icon"> 
+                    <span> MU</span>
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+          
+                   </div> 
+                </td>
+  
+                <td class = "td_result_score">
+                  0 - 0
+                
+                </td>
+  
+                <td class = "td_result_name_club">
+                  
+                  <div class = "div_name_club_and_icon"> 
+                    
+                    <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                    <span> MU</span>
+                   </div> 
+                </td>
+              </tr>
+  
+  
+  
+            </tbody>
+          </table>
         </div>
       </div>
+
+
+      <p style="margin-left: 360px; font-size: 30px;">
+        Tin Tức
+      </p>
+
+      <!-- footer -->
+      <div class="news_video_last">
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+
+          <div class="item_video_last">
+            <img src="./assets/css/img/eric-ten.jpg" alt="" class="img_video_last">
+          </div>
+        <!-- </div> -->
+
+      </div>
+
+      <!-- lich thi dau -->
+      <div class="layout_ratings">
+
+        <div class="calendar">
+          <div class="calendar_title" style="background-color: black;text-align:center;height: 30px;">
+            <p style="color:aliceblue;font-size: 20px;">
+              Lịch thi đấu vòng 31
+            </p>
+          </div>
+          
+
+          <img src="./assets/css/img/premier league_mini.png" alt="" class="img_pl_mini">
+          <p style="color:black">
+            Thứ 2 12/4
+           </p>
+          <div class="layout_table_calendar">
+            
+            <table class="table_calendar">
+              <tbody>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_time_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>    
+              </tbody>
+            
+            </table>
+            
+
+            <!-- lich 2 -->
+
+            <p style="color:black">
+              Thứ 2 12/4
+            </p>
+            <table class="table_calendar">
+              <tbody>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>    
+              </tbody>
+            
+            </table>
+
+
+            <!-- lịch 3 -->
+
+            <p style="color:black">
+              12/4
+            </p>
+            <table class="table_calendar">
+              <tbody>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+
+                <tr class="tr_table_calendar">
+                  <td class="td_table_calendar">
+                    
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="time_calendar">
+                      19:00
+                    </div>
+                  </td>
+                  <td class="td_table_calendar">
+                    <div class="layout_icon_name_club_calendar">
+                      <img src="./assets/css/img/manutd.png" alt="" class="img_club_result">
+                      <span> MU</span>
+                    </div>
+                  </td>
+                </tr>    
+              </tbody>
+            
+            </table>
+          </div>
+        </div>
+
+
+        <!-- bang xep hang -->
+        <br>
+
+        <div class="ratings">
+          <p style="color:aliceblue">
+            Bảng xếp hạng
+          </p>
+          
+          <div class="logo-ratings">
+            <table class = "table_ratings">
+              <thead>
+                <tr>
+                  <th class = "th_ratings">NNA</th>
+                  <th class = "th_ratings">Đức</th>
+                  <th>TBN</th>
+                  <th>Pháp</th>
+                </tr>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td class = "td_ratings">Hạng</td>
+                <td>Đội bóng</td>
+                <td>Hiệu số</td>
+                <td>Điểm</td>
+              </tr>
+  
+              <tr class = "tr_ratings">
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td><div class="user">
+                  <img src="./assets/css/img/manutd.png" alt="">
+                  <span> MU</span>
+                </div>
+               </td></td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+              <tr>
+                <td>1</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+  
+  
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="user">
+                    <img src="./assets/css/img/manutd.png" alt="">
+                    <span> MU</span>
+                  </div>
+                 </td>
+                </td>
+                <td>+50</td>
+                <td>59</td>
+              </tr>
+            
+            </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+        
+        <!-- lich thi dau -->
+        
+        
+        <!-- <div class="calendar"> -->
+          
+        <!--  -->
+
+      <!-- </div> -->
+      
     </div>
 
     
-
     
   </body>
 </html>
