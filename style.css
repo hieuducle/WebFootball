@@ -331,9 +331,7 @@ table .user img {
 .tr_table_calendar,.td_table_calendar {
 	padding: 12px 15px;
 }
-.table_calendar {
-	/* padding: 10px 10px; */
-}
+
 nav .logoo a:nth-child(1) {
 	width: 0px;
 }
@@ -362,7 +360,7 @@ nav .animation{
 
 .animation_result {
 	position: absolute;
-	background-color: red;
+	background-color: black;
 	height: 100px;
 	width: 100px;
 	bottom: 0;
@@ -406,3 +404,53 @@ nav a:nth-child(5):hover~.animation{
 	width: 120px;
 	left: 470px;
 }
+
+
+
+.tab-pane {
+	color: black;
+	display: none;
+  }
+  .tab-pane.active {
+	display: block;
+  }
+
+  .tab-item:hover {
+	opacity: 1;
+	background-color: rgba(194, 53, 100, 0.05);
+	border-color: rgba(194, 53, 100, 0.1);
+  }
+  .tab-item.active {
+	opacity: 1;
+  }
+
+  .tabs {
+	display: flex;
+	position: relative;
+  }
+  .tabs .line {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 6px;
+	border-radius: 15px;
+	background-color: #c23564;
+	transition: all 0.2s ease;
+  }
+  .tab-item {
+	/* min-width: 80px; */
+	/* padding: 10px 10px 10px 10px; */
+	height: 25px;
+	width: 70px;
+	/* font-size: 20px; */
+	text-align: center;
+	color: #c23564;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 5px solid transparent;
+	opacity: 0.6;
+	cursor: pointer;
+	transition: all 0.5s ease;
+  }
